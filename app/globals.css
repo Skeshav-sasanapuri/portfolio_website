@@ -10,6 +10,10 @@
   --foreground: #ededed;
 }
 
+.font-burtons {
+  font-family: "burtons", sans-serif;
+}
+
 /*@media (prefers-color-scheme: dark) {*/
 /*  :root {*/
 /*    --background: #0a0a0a;*/
