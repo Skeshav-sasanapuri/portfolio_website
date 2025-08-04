@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 // My first component. This takes arguments href (link) and text (name of button)
 const NavLink = ({href, Icon, text}) => {
   // Define class names. It will use it for all the options in navbar
-  const LinkClasses = "text-[#333] px-4 py-2 rounded-4xl ml-5 my-1 transition-transform duration-200 hover:shadow-xl hover:shadow-sm";
+  const LinkClasses = "items-center text-[#333] px-4 py-2 rounded-4xl ml-5 my-1 transition-transform duration-200 hover:shadow-xl";
 
   return (
     <motion.li
